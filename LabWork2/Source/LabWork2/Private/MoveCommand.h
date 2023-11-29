@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Command.h"
+#include "UnitBase.h"
+#include "GameGrid.h"
 
 /**
  * 

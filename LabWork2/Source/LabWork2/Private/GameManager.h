@@ -65,10 +65,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 	bool UndoLastMove();
 
-	UFUNCTION(BlueprintCallable)
-	void ReturnMove();
-
-
+	
 private:
 	AUnitBase* ThePlayer;
 	TArray<TSharedRef<Command>> CommandPool;
